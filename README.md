@@ -1,7 +1,5 @@
 # WanderLust
 
-# Wanderlust
-
 ## Description
 
 Wanderlust is a web application for listing and discovering travel destinations. Users can browse listings, create new listings, leave reviews, and manage their accounts.
