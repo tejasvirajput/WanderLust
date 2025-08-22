@@ -29,7 +29,10 @@ main()
   .catch((err) => console.log(err));
 
 async function main() {
-  await mongoose.connect(dbUrl);
+  await mongoose.connect(dbUrl, {
+    tls: true,
+    tlsAllowInvalidCertificates: true,
+  });
 }
 
 app.set("view engine", "ejs");
