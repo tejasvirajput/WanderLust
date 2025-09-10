@@ -59,7 +59,7 @@ const sessionOptions = {
   secret: process.env.SECRET,
   resave: false,
   saveUninitialized: true,
-  Cookie: {
+  cookie: {
     expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
     maxAge: 1000 * 60 * 60 * 24 * 7,
     httpOnly: true,
